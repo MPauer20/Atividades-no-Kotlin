@@ -288,6 +288,21 @@ fun main() {
 
 ````
 
+# Ex22
+
+````
+fun main() {
+
+    val raio = 5.0
+    val pi = 3.1416
+
+    val volume = (4.0 / 3.0) * pi * (raio * raio * raio)
+
+    println(volume)
+}
+
+````
+
 # Exe23
 ```
 fun main() {
@@ -331,8 +346,98 @@ fun main() {
 }
 ````
 
+# Ex26
+
+````
+fun main() {
+    println("Digite 4 números:")
+
+    for (i in 1..4) {
+        val n = readLine()!!.toInt()
+        if (n % 2 == 0 && n % 3 == 0) {
+            println(n)
+        }
+    }
+}
+
+````
+
+# Ex27
+
+````
+fun main() {
+   
+    var numéro1 = 20
+    var numéro2 = 8
+    
+    var resultado = numéro1 - numéro2
+   
+    
+    print(resultado)
+
+    
+}
+````
+
+# Ex28
+
+````
+fun main() {
+
+    val numero = 0
+
+    if (numero > 0) {
+        println("Positivo")
+    } else if (numero < 0) {
+        println("Negativo")
+    } else {
+        println("Neutro")
+    }
+}
 
 
+````
+
+# Ex29
+
+````
+fun main() {
+   
+    var nota1 = 6
+    var nota2 = 5
+    var nota3 = 3
+    var nota4 = 4
+    
+    var media = (nota1 + nota2 + nota3 + nota4) / 4
+    if ( media >= 5) {
+        println("Aprovado")
+    } else {
+        println("Reprovado")
+    }
+   
+    
+    print(media)
+
+    
+}
+````
+
+# Ex30
+
+````
+fun main() {
+
+    val media = (6.0 + 7.0 + 5.0 + 8.0) / 4
+
+    if (media > 7) {
+        println("Aprovado")
+    } else {
+        val mediaFinal = (media + 6.0) / 2
+        println(if (mediaFinal > 5) "Aprovado em exame" else "Reprovado")
+    }
+}
+
+````
 
 
 
